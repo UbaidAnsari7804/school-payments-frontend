@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom table hover group */
+tbody tr:hover { cursor: pointer; }
+
+/* small responsive tweaks */
+@media (min-width: 768px) {
+  .max-w-xs { max-width: 22rem; }
+}
+
+/* optional: dark-mode body background */
+:root { color-scheme: light; }
+html.dark { color-scheme: dark; }
